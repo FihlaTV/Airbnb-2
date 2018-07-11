@@ -1,5 +1,5 @@
 var app = angular.module('Airbnb',['ui.bootstrap','ui.router','google.places','nvd3','ngMaterial','ngAnimate','ngAria','ngRoute','ngSanitize','rzModule']);
-filepicker.setKey("As4LSqupJTjVvBXkoAMnPz");
+filepicker.setKey("AtjyJDZbR2qeODP8alE4Rz");
 app.config(function($stateProvider, $urlRouterProvider) {
 
 
