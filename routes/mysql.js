@@ -7,7 +7,7 @@ var pool  = mysql_pool.createPool({
 	user     : 'root',
 	password : 'Botshelo$123',
 	port     : 3306,
-	database : 'mindezone',
+	database : 'minderzone',
 	connectionLimit : '10',
 		multipleStatements: true
 });
