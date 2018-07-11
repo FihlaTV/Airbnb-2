@@ -14,7 +14,7 @@ var review = require('./services/review');
 
 
 
-var mongoSessionConnectURL = "mongodb:/localhost/minderzbnb";
+var mongoSessionConnectURL = "mongodb://localhost/minderzbnb";
 var expressSession = require("express-session");
 var mongoStore = require("connect-mongo")(expressSession);
 var mongo = require("./services/mongo");
