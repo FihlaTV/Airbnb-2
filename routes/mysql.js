@@ -3,11 +3,11 @@
  */
 var mysql_pool = require('mysql');
 var pool  = mysql_pool.createPool({
-	host     : 'db4free.net',
-	user     : 'airbnb',
-	password : 'airbnb',
+	host     : 'localhost',
+	user     : 'root',
+	password : 'Botshelo$123',
 	port     : 3306,
-	database : 'airbnb',
+	database : 'mindezbnb',
 	connectionLimit : '10',
 		multipleStatements: true
 });
